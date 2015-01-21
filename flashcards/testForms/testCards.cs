@@ -27,7 +27,7 @@ namespace flashcards.testForms
 
         private void initArrayList()
         {
-            Card card1 = new Card("uropygium", "the hump at the rear extremity of a bird's body, from which tail feathers grow.", "birds", "noun", "Green");
+            Card card1 = new Card("uropygium", "the hump at the rear extremity of a bird's body, from which tail feathers grow.", "birds", "noun");
             Card card2 = new Card("savant", "1. a learned person; a scholar. 2. an idiot savant.");
             Card card3 = new Card("paladin", "1. a heroic champion. 2. a strong supporter or defender of a cause. 3. any of the twelve peers of Charlemagne's court.", "Young Luke Skywalker");
             Card card4 = new Card("liminal", "1. at an intermediate state. 2. at the threshold of consciousness.");
@@ -82,7 +82,7 @@ namespace flashcards.testForms
             string typ = tbType.Text;
             string colr = tbColor.Text;
 
-            Card new_card = new Card(wrd, def, example, typ, colr);
+            Card new_card = new Card(wrd, def, example, typ);
             cardArrayList.Add(new_card);
 
             //update listbox

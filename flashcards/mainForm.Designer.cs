@@ -30,6 +30,7 @@
         {
             this.btnTestCards = new System.Windows.Forms.Button();
             this.btnTestPacks = new System.Windows.Forms.Button();
+            this.btnCardFace = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnTestCards
@@ -52,11 +53,22 @@
             this.btnTestPacks.UseVisualStyleBackColor = true;
             this.btnTestPacks.Click += new System.EventHandler(this.btnTestPacks_Click);
             // 
+            // btnCardFace
+            // 
+            this.btnCardFace.Location = new System.Drawing.Point(40, 119);
+            this.btnCardFace.Name = "btnCardFace";
+            this.btnCardFace.Size = new System.Drawing.Size(113, 41);
+            this.btnCardFace.TabIndex = 2;
+            this.btnCardFace.Text = "card face";
+            this.btnCardFace.UseVisualStyleBackColor = true;
+            this.btnCardFace.Click += new System.EventHandler(this.btnCardFace_Click);
+            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(365, 207);
+            this.Controls.Add(this.btnCardFace);
             this.Controls.Add(this.btnTestPacks);
             this.Controls.Add(this.btnTestCards);
             this.Name = "mainForm";
@@ -69,6 +81,7 @@
 
         private System.Windows.Forms.Button btnTestCards;
         private System.Windows.Forms.Button btnTestPacks;
+        private System.Windows.Forms.Button btnCardFace;
 
     }
 }

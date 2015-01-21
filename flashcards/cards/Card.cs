@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using System.Drawing;
 
 namespace flashcards
 {
@@ -18,13 +17,7 @@ namespace flashcards
         string word = "";
         string definition = "";
         string example = "";
-
-        /*
-         * the color changes depending on type 
-         * e.g. verbs, nouns, adjs, advs.
-         * the color will primarily be used for vocabs or different types of words
-         */
-        Color color;
+        cards.POS pos;
 
         /*
         public int ID
@@ -56,10 +49,10 @@ namespace flashcards
             set { example = value; }
         }
 
-        public Color Color
+        internal cards.POS Pos
         {
-            get { return color; }
-            set { color = value; }
+            get { return pos; }
+            set { pos = value; }
         }
 
         public Card(string newWord, string newDefinition, string newExample, string newType)

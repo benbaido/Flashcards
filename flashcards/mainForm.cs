@@ -28,5 +28,11 @@ namespace flashcards
             testForms.testPack test = new testForms.testPack();
             test.Show();
         }
+
+        private void btnCardFace_Click(object sender, EventArgs e)
+        {
+            testForms.cardFace cardface = new testForms.cardFace();
+            cardface.Show();
+        }
     }
 }
