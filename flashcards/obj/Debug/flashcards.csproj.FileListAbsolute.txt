@@ -1,0 +1,11 @@
+C:\Users\mena\programming\flashcard_projects\flashcards\flashcards\bin\Debug\flashcards.exe.config
+C:\Users\mena\programming\flashcard_projects\flashcards\flashcards\bin\Debug\flashcards.exe
+C:\Users\mena\programming\flashcard_projects\flashcards\flashcards\bin\Debug\flashcards.pdb
+C:\Users\mena\programming\flashcard_projects\flashcards\flashcards\obj\Debug\flashcards.mainForm.resources
+C:\Users\mena\programming\flashcard_projects\flashcards\flashcards\obj\Debug\flashcards.Properties.Resources.resources
+C:\Users\mena\programming\flashcard_projects\flashcards\flashcards\obj\Debug\flashcards.testForms.testCards.resources
+C:\Users\mena\programming\flashcard_projects\flashcards\flashcards\obj\Debug\flashcards.testForms.testPack.resources
+C:\Users\mena\programming\flashcard_projects\flashcards\flashcards\obj\Debug\flashcards.csproj.GenerateResource.Cache
+C:\Users\mena\programming\flashcard_projects\flashcards\flashcards\obj\Debug\flashcards.exe
+C:\Users\mena\programming\flashcard_projects\flashcards\flashcards\obj\Debug\flashcards.pdb
+C:\Users\mena\programming\flashcard_projects\flashcards\flashcards\obj\Debug\flashcards.csprojResolveAssemblyReference.cache
